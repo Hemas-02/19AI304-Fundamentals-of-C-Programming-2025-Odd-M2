@@ -15,7 +15,7 @@
   
   The program should display the average marks up to two decimal places and the corresponding grade. 
   
-# Date : 
+
 # Aim:
  To build a C program that receives inputs for a student’s marks in three subjects, calculates the average, and determines the grade using nested if-else statements with safe floating-point comparisons.
 # Algorithm:
@@ -82,7 +82,7 @@ return 0;
 }
 ```
 # Output:
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/cba1ea13-5f54-4dba-86e1-c5c8ed394b9d" />
+<img width="1242" height="741" alt="Screenshot 2026-06-08 025853" src="https://github.com/user-attachments/assets/463244f4-351f-450a-938b-2c7a878cdbb6" />
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -128,7 +128,8 @@ return 0;
 }
 ```
 # Output:
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/99cb7c6e-d4d7-467f-b240-08366a3cb154" />
+<img width="1269" height="673" alt="Screenshot 2026-06-08 025911" src="https://github.com/user-attachments/assets/cd877524-4b00-42a2-8670-11938563fbc7" />
+
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -201,6 +202,7 @@ return 0;
 
 ```
 # Output:
+<img width="1276" height="755" alt="Screenshot 2026-06-08 025938" src="https://github.com/user-attachments/assets/386cf83f-9dfe-467a-a945-32a64deaf678" />
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -276,7 +278,8 @@ return 0;
 }
 ```
 # Output:
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e96a37ad-1663-4a5d-b241-821c260fe0d6" />
+<img width="1276" height="755" alt="Screenshot 2026-06-08 025938" src="https://github.com/user-attachments/assets/25f18f3c-e14e-42f2-9409-469be05c39d1" />
+
 
 # Result: 
   Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -364,7 +367,8 @@ int main() {
 }
 ```
 Output:
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/5136b3e1-f4c3-4263-b96c-bd89c808af71" />
+<img width="1261" height="752" alt="Screenshot 2026-06-08 025956" src="https://github.com/user-attachments/assets/ca211b18-90c7-46f0-8baf-f9a1cbdbaf31" />
+
 
 # Result:
   Thus, the program was implemented and executed successfully, and the required output was obtained.
