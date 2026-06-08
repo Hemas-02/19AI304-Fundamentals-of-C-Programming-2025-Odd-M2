@@ -56,7 +56,34 @@
 ### Step 11:
   Stop
 # Program:
+```
+#include <stdio.h>
+int main() {
+float math, science, english;
+float average;
+// Input marks
+printf("Enter marks for Math, Science, and English: ");
+scanf("%f %f %f", &math, &science, &english);
+// Calculate average
+average = (math + science + english) / 3.0;
+// Display average
+printf("Average marks = %.2f\n", average);
+// Determine grade using nested if-else
+if (average >= 90.0) {
+printf("Grade = A\n");
+} else if (average >= 75.0 && average < 90.0) {
+printf("Grade = B\n");
+} else if (average >= 50.0 && average < 75.0) {
+printf("Grade = C\n");
+} else {
+printf("Grade = F\n");
+}
+return 0;
+}
+```
 # Output:
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/cba1ea13-5f54-4dba-86e1-c5c8ed394b9d" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -88,7 +115,21 @@ Thus, the program was implemented and executed successfully, and the required ou
   Stop
 
 # Program:
+```
+#include <stdio.h>
+int main() {
+int num = 15;
+int i;
+printf("Multiplication table of %d:\n", num);
+for(i = 1; i <= 10; i++) {
+printf("%d x %d = %d\n", num, i, num * i);
+}
+return 0;
+}
+```
 # Output:
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/99cb7c6e-d4d7-467f-b240-08366a3cb154" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -131,7 +172,36 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 7:   
   Stop
 # Program:
+```
+#include <stdio.h>
+int main() {
+int num, i, isPrime = 1; // Assume the number is prime initially
+// Input number
+printf("Enter a number: ");
+scanf("%d", &num);
+// Handle numbers less than 2
+if(num < 2) {
+isPrime = 0;
+} else {
+// Check divisibility from 2 to sqrt(num)
+for(i = 2; i * i <= num; i++) {
+if(num % i == 0) {
+isPrime = 0; // Not prime
+break;
+}
+}
+}
+// Output result
+if(isPrime)
+printf("%d is a prime number.\n", num);
+else
+printf("%d is not a prime number.\n", num);
+return 0;
+}
+
+```
 # Output:
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -179,7 +249,35 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+#include <stdio.h>
+int main() {
+int i, j;
+int n = 5; // Maximum number in the pattern
+// First row: 12345
+for(i = 1; i <= n; i++) {
+printf("%d", i);
+}
+printf("\n");
+// Middle rows
+for(i = 2; i < n; i++) {
+printf("%d", i); // First number of the row
+for(j = 1; j <= n - 2; j++) {
+printf(" "); // Spaces in the middle
+}
+printf("%d\n", n - i + 1); // Last number of the row
+}
+// Last row: 54321
+for(i = n; i >= 1; i--) {
+printf("%d", i);
+}
+printf("\n");
+return 0;
+}
+```
 # Output:
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e96a37ad-1663-4a5d-b241-821c260fe0d6" />
+
 # Result: 
   Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -232,6 +330,42 @@ Thus, the program was implemented and executed successfully, and the required ou
   Decrease i by 1 and go back to Step 6.
 ### Step 8:
   Stop
+Program:
+```
+#include <stdio.h>
+
+int main() {
+    int i, j, k, n = 7;
+
+    for(i = 0; i <= n; i++) {
+
+        // Print leading spaces
+        for(j = 0; j < n - i; j++) {
+            printf("  ");
+        }
+
+        // Print left increasing numbers
+        for(j = n - i + 1; j <= n; j++) {
+            printf("%d ", j);
+        }
+
+        // Print 0 in the center
+        printf("0 ");
+
+        // Print right decreasing numbers
+        for(k = n; k >= n - i + 1; k--) {
+            printf("%d ", k);
+        }
+
+        printf("\n");
+    }
+
+    return 0;
+}
+```
+Output:
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/5136b3e1-f4c3-4263-b96c-bd89c808af71" />
+
 # Result:
   Thus, the program was implemented and executed successfully, and the required output was obtained.
 
